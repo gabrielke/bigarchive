@@ -10,7 +10,7 @@ close($fh);
 @arr=split('\0',$content);
 print "File count: $#arr \n";
 my $c=0;
-while (my @chunk = splice (@arr, 0, 3)) {
+while (my @chunk = splice (@arr, 0, 5000)) {
     open ($fh, '>', "part.$c") or die "cannot open file for writing";
         print $fh join("\0",@chunk);
 	$c++;
