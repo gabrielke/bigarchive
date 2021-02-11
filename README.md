@@ -9,3 +9,5 @@ Steps/scripts provided:
 - create the archives (arch.sh) - into folder archive
 - extract the archives (extract.sh) - from folder archive
 
+- (optional) delete the files (delete.sh)
+
